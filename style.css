@@ -1,0 +1,196 @@
+body {
+	background-image: url(./img/background.jpg);
+	background-size: 100%;
+	background-origin: fixed;
+	background-attachment: fixed;
+	font-family: 'Varela', sans-serif;
+	
+
+}
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+
+
+}
+header {
+	width: 100%;
+	position: fixed;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.8);
+	height: 40px;
+
+
+
+}
+
+header h1 {
+	display: inline-block;
+	
+	
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 20em;	
+	line-height: 2em;
+	border-radius: 200px;
+	
+	height: 2em;
+	margin-top: 0.2em;
+	font-size:1em;
+
+
+}
+
+section {
+	padding-top: 4em;
+	padding-left: 26%;
+	padding-right: 1%;
+	text-align: center;
+
+	
+	
+
+	
+
+}
+
+header #logo: {
+	opacity: none;
+	min-height: 200px;
+	color: #fff;
+
+
+}
+
+.cyrcle {
+
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;    
+    padding: 20px;
+   
+    align-items: center;
+     display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+    line-height: 160px;
+    margin: 1%;
+
+
+}
+.circle p {
+	display: flex;
+
+}
+
+.cyrcle h2 {
+	
+    
+
+}
+.row {
+display: inline-table;
+width: 100%;
+margin-bottom: 2em;
+
+}
+
+.row img {
+	display: inline-table;
+	width: 48%;
+	vertical-align: top;
+
+}
+
+
+
+
+.rec {
+
+	background-color: rgba(255, 255, 255, 0.5);
+
+	min-height: 200px;
+	border-radius: 20px;
+	
+	display: inline-table;
+	vertical-align: top;
+
+
+}
+
+.rec p {
+	text-align: justify;
+	padding: 1em;
+}
+
+.rec-big {
+	width: 48%;
+	display: inline-table;
+	height: 100%;
+}
+.rec-small {
+	width: 30%;
+	margin: 0.07%;
+}
+.rec-small img {
+	width: 90%;
+	padding: 1em;
+
+	
+}
+nav {
+	
+	width: 25%;
+	margin-top: 40px;
+	height: calc(100vh - 30px);
+	background-color: rgba(255, 255, 255, 0.85);
+	display: block;
+	overflow: auto;
+	animation: animateleft 0.4s;
+	float: left;
+	position: fixed;
+	text-align: center;
+
+}
+
+nav ul {
+	
+	list-style: none;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 0em;
+		border-top: dotted;
+	border-top-color: black;
+	border-top-width: 0.1em;
+	border-top-color: black;
+}
+
+nav ul li  {
+	text-align: center;
+
+	list-style: none;
+	
+	border-bottom: dotted;
+	border-bottom-color: black;
+	border-bottom-width: 0.1em;
+	border-bottom-color: black;
+
+}
+nav ul li a {
+	vertical-align: middle;
+	display: inline-block;
+	width: 100%;
+	list-style: none;
+	text-decoration: none;
+	padding: 0.8em 0em 0.8em 0em;
+	color: darkblue;
+
+
+}
+nav ul li a:hover, .active {
+	border-radius: 0.5em;
+	background-color: rgba(255, 255, 255, 0.40);
+
+
+}
